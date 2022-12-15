@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Yousef's Webpage</title>
+    <script>
+        function myfunction(){
+            var x = document.getElementById("form1");
+            var text = "";
+            var name = x.element[0].value;
+            text = "The name entered is " + name;
+            document.getElementById("output_text").innerHTML = text;
+         }
+        </script>
+</head>
+<body>
+    <h1>Who am I?</h1>
+    <h2>My name is Yousef Aslam</h2>
+    
+
+    <img src="https://resources.premierleague.com/premierleague/photos/players/250x250/p14937.png" alt="" srcset="100px">
+    
+    <h1>What do I do?</h1>
+    <h3>I am a student at Long Road College</h3> 
+    <h1>Where am I?</h1>
+    <h3>At Long Road College</h3>
+    <h7></h7>
+    <form id="form1" action="">
+        <label for="Firstname">Firstname</label>
+        <input type="text" id="firstname" name=" Yousef ">
+    </form>>
+     
+    <button onclick="myfunction()" name="submit">Submit</button>
+
+    <p id="output_text"></p>
+
+</body>
+</html>
